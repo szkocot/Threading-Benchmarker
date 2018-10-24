@@ -93,7 +93,7 @@ namespace ThreadBenchNamespace
             this.noThreads = this.noCpus;
             this.textBoxNoThreads.Text = this.noThreads.ToString();
 
-            this.chosenMethod = "srednia";
+            this.chosenMethod = "mean";
             this.comboBoxChooseMethod.SelectedItem = this.chosenMethod;
 
             this.windowSize = (int)decimal.Floor(this.vectSize / this.noThreads);
