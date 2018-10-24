@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{1F991D04-1CC0-4BCD-A3FB-E19CBF434921}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ORB_lab1b</RootNamespace>
-    <AssemblyName>ORB_lab1b</AssemblyName>
+    <RootNamespace>Threading_Benchmarker</RootNamespace>
+    <AssemblyName>Threading-Benchmarker</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -69,6 +69,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
