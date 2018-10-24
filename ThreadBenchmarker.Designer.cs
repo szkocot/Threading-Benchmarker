@@ -86,9 +86,9 @@ namespace ThreadBenchNamespace
             this.labelVectSize.AutoSize = true;
             this.labelVectSize.Location = new System.Drawing.Point(37, 73);
             this.labelVectSize.Name = "labelVectSize";
-            this.labelVectSize.Size = new System.Drawing.Size(89, 13);
+            this.labelVectSize.Size = new System.Drawing.Size(74, 13);
             this.labelVectSize.TabIndex = 3;
-            this.labelVectSize.Text = "Długość wektora";
+            this.labelVectSize.Text = "Vector Length";
             this.labelVectSize.Click += new System.EventHandler(this.label1_Click);
             // 
             // labelNoThreads
@@ -143,7 +143,7 @@ namespace ThreadBenchNamespace
             this.labelTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelTitle.Location = new System.Drawing.Point(12, 9);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(444, 17);
+            this.labelTitle.Size = new System.Drawing.Size(439, 17);
             this.labelTitle.TabIndex = 8;
             this.labelTitle.Text = "This app allows for multi-thread performance benchmarking";
             this.labelTitle.Click += new System.EventHandler(this.label5_Click);
@@ -170,7 +170,7 @@ namespace ThreadBenchNamespace
             // labelLogCpus
             // 
             this.labelLogCpus.AutoSize = true;
-            this.labelLogCpus.Location = new System.Drawing.Point(30, 47);
+            this.labelLogCpus.Location = new System.Drawing.Point(37, 47);
             this.labelLogCpus.Name = "labelLogCpus";
             this.labelLogCpus.Size = new System.Drawing.Size(71, 13);
             this.labelLogCpus.TabIndex = 11;
@@ -223,12 +223,12 @@ namespace ThreadBenchNamespace
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(282, 70);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(119, 13);
+            this.label2.Size = new System.Drawing.Size(90, 13);
             this.label2.TabIndex = 16;
             this.label2.Text = "By Szymon Kocot";
             this.label2.Click += new System.EventHandler(this.label2_Click_1);
             // 
-            // Form1
+            // ThreadBenchmarker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -251,7 +251,7 @@ namespace ThreadBenchNamespace
             this.Controls.Add(this.textBoxNoThreads);
             this.Controls.Add(this.textBoxVectSize);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.Name = "ThreadBenchmarker";
             this.Text = "Threading Benchmarker";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
