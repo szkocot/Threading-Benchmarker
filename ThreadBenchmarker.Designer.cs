@@ -8,7 +8,7 @@ namespace ThreadBenchNamespace
         private int vectSize;
         private int noThreads;
         private int windowSize;
-        private string chosenMethod;
+        private string chosenMethod = "mean";
         private bool alreadyExecuted = false;
 
         /// <summary>
